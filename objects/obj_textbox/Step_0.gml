@@ -28,19 +28,17 @@ if keyboard_check(vk_anykey) && !(keyboard_check(vk_shift) || keyboard_check(190
 //	down() - 6
 
 if keyboard_check(vk_enter) {
-	//show_message("SAIDA 1: " + codigo);	
-	codigo = string_delete(codigo, 1, 5)
-	//show_message("SAIDA 2: " + codigo);
+	//if (keyboard_check_released(vk_enter)) {
+	//    keyboard_string += chr(13);
+	//}
 	
+	codigo = string_delete(codigo, 1, 5)
 	if string_length(codigo) = 6 {
 		codigo = string_delete(codigo, 5, 2)
-		//show_message("SAIDA 3: " + codigo);
 	} else if string_length(codigo) = 4 {
 		codigo = string_delete(codigo, 3, 2)
-		//show_message("SAIDA 3: " + codigo);
 	} else if string_length(codigo) = 7 {
 		codigo = string_delete(codigo, 6, 2)
-		//show_message("SAIDA 3: " + codigo);
 	}
 	obj_player.comando_movimento = string_lower(codigo)
     keyboard_string = "";

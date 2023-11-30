@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_btnJogar",
-  "bbox_bottom": 154,
+  "bbox_bottom": 89,
   "bbox_left": 0,
-  "bbox_right": 498,
+  "bbox_right": 327,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"144107c8-acee-438d-a269-0b0dcbf15eeb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6533104e-0f08-4d1a-99e7-be20a9bb3015",},
   ],
   "gridX": 16,
   "gridY": 16,
-  "height": 155,
+  "height": 90,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"be7dc1ed-3d55-4a3c-b001-4f4542219731","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"38308cdf-70ce-4be5-bc87-1e32baee0e4a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"144107c8-acee-438d-a269-0b0dcbf15eeb","path":"sprites/spr_btnJogar/spr_btnJogar.yy",},},},"Disabled":false,"id":"7ac7cf52-37cd-4e9a-aa8f-613be29113d8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6533104e-0f08-4d1a-99e7-be20a9bb3015","path":"sprites/spr_btnJogar/spr_btnJogar.yy",},},},"Disabled":false,"id":"706eb816-7f33-44f7-a96f-893fe3e7aa6d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 499,
+  "width": 328,
 }

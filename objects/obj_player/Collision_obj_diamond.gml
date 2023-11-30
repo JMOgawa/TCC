@@ -2,4 +2,11 @@
 // Você pode escrever seu código neste editor
 
 instance_destroy(other)
-diamante += 1
+diamantes_coletados += 1
+
+gerenciar_diamantes(diamantes_coletados)
+//show_message(diamante_missao)
+//if (diamonds_coletados = diamante_missao) {
+//	salvarUsuario();
+//}
+

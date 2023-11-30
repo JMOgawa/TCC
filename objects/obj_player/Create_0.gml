@@ -4,7 +4,8 @@
 //aumenta tamanho da tela
 //window_set_size(1360,700)
 
-diamante = 0
+diamante_missao = 0
+diamantes_coletados = 0
 comando_movimento = ""
-
-velocidade = 1;
+velocidade = 1
+colidiu_diamante = false
