@@ -7,6 +7,11 @@ function comando_player(comando_movimento, velocidade, colidiu_diamante){
 			if(place_meeting(x, y, obj_diamond)){
 				colidiu_diamante = true;
 			}
+			if(place_meeting(x, y, obj_parede)){
+				colidiu_diamante = true;
+				sprite_index = spr_hit;	
+				x+=x image_xscale=-1
+			}
 		}
 	}
 
@@ -17,6 +22,11 @@ function comando_player(comando_movimento, velocidade, colidiu_diamante){
 			if(place_meeting(x, y, obj_diamond)){
 				colidiu_diamante = true;
 				sprite_index = spr_Player;
+			}	
+			if(place_meeting(x, y, obj_parede)){
+				colidiu_diamante = true;
+				sprite_index = spr_hit;	
+				x-=x image_xscale=1
 			}
 		}
 	}
@@ -27,6 +37,11 @@ function comando_player(comando_movimento, velocidade, colidiu_diamante){
 			sprite_index = spr_playerRun
 			if(place_meeting(x, y, obj_diamond)){
 				colidiu_diamante = true;
+			}	
+			if(place_meeting(x, y, obj_parede)){
+				colidiu_diamante = true;
+				sprite_index = spr_hit;	
+				x+=x
 			}
 		}
 	}
@@ -36,6 +51,11 @@ function comando_player(comando_movimento, velocidade, colidiu_diamante){
 			y+=velocidade
 			if(place_meeting(x, y, obj_diamond)){
 				colidiu_diamante = true;
+			}	
+			if(place_meeting(x, y, obj_parede)){
+				colidiu_diamante = true;
+				sprite_index = spr_hit;	
+				x-=x
 			}
 		}
 	}
