@@ -9,12 +9,14 @@
   "instanceCreationOrder": [
     {"name":"inst_1373425C","path":"rooms/Mapa/Mapa.yy",},
     {"name":"inst_587F5294","path":"rooms/Mapa/Mapa.yy",},
+    {"name":"inst_5E4F5B4D","path":"rooms/Mapa/Mapa.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1373425C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_codigo","path":"objects/obj_codigo/obj_codigo.yy",},"properties":[],"rotation":0.0,"scaleX":3.528395,"scaleY":0.15555556,"x":187.18024,"y":68.44444,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_587F5294","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"btnVoltar","path":"objects/btnVoltar/btnVoltar.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":30.0,"y":9.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5E4F5B4D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_jogo","path":"objects/obj_jogo/obj_jogo.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":96.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_Numeros","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":64,"SerialiseWidth":114,"TileCompressedData":[
 -2342,-2147483648,2,7,0,-33,-2147483648,3,10,0,0,-111,-2147483648,-2,0,-368,-2147483648,1,3,-293,-2147483648,1,0,-113,-2147483648,3,0,8,9,-1098,-2147483648,1,0,-15,-2147483648,1,6,-97,-2147483648,2,4,5,-764,-2147483648,1,2,-2045,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"TileNumeros","path":"tilesets/TileNumeros/TileNumeros.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},

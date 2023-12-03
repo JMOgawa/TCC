@@ -7,5 +7,6 @@
 diamante_missao = 0
 diamantes_coletados = 0
 comando_movimento = ""
+qnt_movimento = 1
 velocidade = 1
 colidiu_diamante = false

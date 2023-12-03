@@ -28,19 +28,43 @@ if keyboard_check(vk_anykey) && !(keyboard_check(vk_shift) || keyboard_check(190
 //	down() - 6
 
 if keyboard_check(vk_enter) {
-	//if (keyboard_check_released(vk_enter)) {
-	//    keyboard_string += chr(13);
-	//}
-	
+	array_push(obj_saidaCodigo.saida_codigo, codigo);
 	codigo = string_delete(codigo, 1, 5)
-	if string_length(codigo) = 6 {
-		codigo = string_delete(codigo, 5, 2)
-	} else if string_length(codigo) = 4 {
-		codigo = string_delete(codigo, 3, 2)
-	} else if string_length(codigo) = 7 {
-		codigo = string_delete(codigo, 6, 2)
+	pos_parentesis_aberto = string_pos("(", codigo);
+	pos_parentesis_fechado = string_pos(")", codigo)
+	if(room_get_name(room) = "Fase1"){
+		if string_length(codigo) = 6 {
+			codigo = string_delete(codigo, 5, 2)
+		} else if string_length(codigo) = 4 {
+			codigo = string_delete(codigo, 3, 2)
+		} else if string_length(codigo) = 7 {
+			codigo = string_delete(codigo, 6, 2)
+		}
+	}else if(room_get_name(room) != "Fase1"){ //Fase 2: king.right(3)
+		if string_length(codigo) = 7 {
+			//numero = string_delete(codigo, 1, 6)
+			if (pos_parentesis_aberto > 0 && pos_parentesis_fechado > 0) {
+				numero = string_copy(codigo, pos_parentesis_aberto + 1, 1);
+			}			
+			codigo = string_delete(codigo, 5, 3)
+		} else if string_length(codigo) = 5 {
+			if (pos_parentesis_aberto > 0 && pos_parentesis_fechado > 0) {
+				numero = string_copy(codigo, pos_parentesis_aberto + 1, 1);
+			}						
+			codigo = string_delete(codigo, 3, 3)
+		} else if string_length(codigo) = 8 {
+			if (pos_parentesis_aberto > 0 && pos_parentesis_fechado > 0) {
+				numero = string_copy(codigo, pos_parentesis_aberto + 1, 1);
+			}
+			codigo = string_delete(codigo, 6, 3)
+		}
 	}
 	obj_player.comando_movimento = string_lower(codigo)
+	if (numero != "") {
+		obj_player.qnt_movimento = 1
+	}else{
+		obj_player.qnt_movimento = real(numero)
+	}
     keyboard_string = "";
 	codigo = "";
 }

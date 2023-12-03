@@ -1,15 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_save",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":13,"eventType":10,"isDnD":false,},
-  ],
+  "name": "pag_SobreJogo",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Object",
-    "path": "folders/Object.yy",
+    "name": "cenario",
+    "path": "folders/Object/cenario.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -27,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "pag_base_1",
+    "path": "sprites/pag_base_1/pag_base_1.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
