@@ -27,23 +27,76 @@ function gerenciar_diamantes(diamantes_coletados){
 	}
 	
 	if diamantes_coletados = diamante_missao {
-		//show_message("OKOKOK") 
-		global.fase_atual = room
 		atualiza_maxPontos(i)
-		salvarUsuario()
-		//atualiza_Mapa()
+		atualiza_Mapa()
+		//room_goto(Mapa)
+		//if (room_get_name(room)= "Mapa"){
+		//	show_message("p2")
+		//	obj_player.x = 71
+		//	obj_player.y = 72
+		//	obj_fase2.sprite_index = spr_faseAberta
+		//}
 		room_goto_next()
 	}
 }
 
 function atualiza_maxPontos(i){
-	//for (var i = 0; i < array_length(global.lista_pontos); i++) { 
 	global.lista_pontos[i] = 100;
-	//show_message(global.lista_pontos[i])
-	//}
 }
 
 function atualiza_Mapa(){
-	//proxima_fase = room_goto_next()
-	//if proxima_fase = 
+	global.fase1_liberada = false
+	global.fase2_liberada = false
+	global.fase3_liberada = false
+	global.fase4_liberada = false
+	global.fase5_liberada = false
+	global.fase6_liberada = false
+	global.fase7_liberada = false
+
+	if (room = 1){
+		global.fase2_liberada = true
+		global.fase1_liberada = true
+	}else if (room = 2){
+		global.fase3_liberada = true
+	}else if (room = 3){
+		global.fase4_liberada = true
+	}else if (room = 4){
+		global.fase5_liberada = true
+	}else if (room = 5){
+		global.fase6_liberada = true
+	}else if (room = 6){
+		global.fase7_liberada = true		
+	}else if (room = 7){
+		
+	}
+}
+
+function get_pontos(){
+	global.lista_pontos = array_create(7)
+	if (global.fase1_liberada){
+		global.lista_pontos[0] = 100
+	}else if (global.fase2_liberada){
+		global.lista_pontos[1] = 100
+	}else if (global.fase3_liberada){
+		global.lista_pontos[2] = 100
+	}else if (global.fase4_liberada){
+		global.lista_pontos[3] = 100
+	}else if (global.fase5_liberada){
+		global.lista_pontos[4] = 100
+	}else if (global.fase6_liberada){
+		global.lista_pontos[5] = 100
+	}else if (global.fase7_liberada){
+		global.lista_pontos[6] = 100
+	}
+}
+
+function get_globais(){
+	global.lista_pontos = array_create(7)
+	global.fase1_liberada = false
+	global.fase2_liberada = false
+	global.fase3_liberada = false
+	global.fase4_liberada = false
+	global.fase5_liberada = false
+	global.fase6_liberada = false
+	global.fase7_liberada = false
 }

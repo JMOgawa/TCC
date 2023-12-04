@@ -16,8 +16,7 @@ function comando_player(comando_movimento, velocidade, qnt_movimento, diamantes_
 			}
 			if(place_meeting(x, y, obj_parede)){
 				colidiu_diamante = true;
-				sprite_index = spr_hit;	
-				x+=x image_xscale=-1
+				sprite_index = spr_hit;
 			}
 		}
 	}
@@ -39,7 +38,6 @@ function comando_player(comando_movimento, velocidade, qnt_movimento, diamantes_
 			if(place_meeting(x, y, obj_parede)){
 				colidiu_diamante = true;
 				sprite_index = spr_hit;	
-				x-=x image_xscale=1
 			}
 		}
 	}
@@ -59,7 +57,6 @@ function comando_player(comando_movimento, velocidade, qnt_movimento, diamantes_
 			if(place_meeting(x, y, obj_parede)){
 				colidiu_diamante = true;
 				sprite_index = spr_hit;	
-				x+=x
 			}	
 		}
 	}
@@ -80,7 +77,6 @@ function comando_player(comando_movimento, velocidade, qnt_movimento, diamantes_
 			if(place_meeting(x, y, obj_parede)){
 				colidiu_diamante = true;
 				sprite_index = spr_hit;	
-				x-=x
 			}
 		}
 	}
