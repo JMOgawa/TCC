@@ -2,6 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
 function comando_player(comando_movimento, velocidade, qnt_movimento, diamantes_coletados){
 	colidiu_diamante = false	
+	obj_player.diamante_aux = 0
+	
 	if comando_movimento = "left"{
 		while(!colidiu_diamante) {
 			x-=velocidade image_xscale=-1
@@ -25,15 +27,13 @@ function comando_player(comando_movimento, velocidade, qnt_movimento, diamantes_
 		while(!colidiu_diamante) {
 			x+=velocidade image_xscale=1
 			//sprite_index = spr_playerRun
-			if(place_meeting(x, y, obj_diamond)){			
-				if(qnt_movimento > 1){
-					//show_message(qnt_movimento)
-					//show_message(diamantes_coletados)
-					colidiu_diamante = false
-				}else{
+			if(place_meeting(x, y, obj_diamond)){
+				//if(qnt_movimento > 1){
+				//	colidiu_diamante = false
+				//}else{
 					colidiu_diamante = true;
 					sprite_index = spr_Player;
-				}
+				//}
 			}	
 			if(place_meeting(x, y, obj_parede)){
 				colidiu_diamante = true;
@@ -42,24 +42,35 @@ function comando_player(comando_movimento, velocidade, qnt_movimento, diamantes_
 		}
 	}
 
-	if comando_movimento = "up"{
-		while(!colidiu_diamante) {
-			y-=velocidade
-			sprite_index = spr_playerRun
-			if(place_meeting(x, y, obj_diamond)){			
-				if(qnt_movimento > 1){
-					colidiu_diamante = false
-				}else{
-					colidiu_diamante = true;
-					sprite_index = spr_Player;
-				}
-			}	
-			if(place_meeting(x, y, obj_parede)){
-				colidiu_diamante = true;
-				sprite_index = spr_hit;	
-			}	
-		}
-	}
+	//if comando_movimento = "up"{		
+	//	//for( var i = 0; i <= qnt_movimento; i += 1) {
+	//		//colidiu_diamante = false
+	//		while(!colidiu_diamante) {
+	//			y-=velocidade
+	//			sprite_index = spr_playerRun
+	//			if(place_meeting(x, y, obj_diamond)){	
+	//				//event_perform_object(obj_diamond, ev_collision, 0)
+	//				//show_message(obj_player.diamantes_coletados)
+	//				//show_message(diamante_aux)
+	//				//show_message(qnt_movimento)
+	//				obj_player.diamante_aux += 1
+	//				//obj_player.diamantes_coletados += 1
+
+	//				//if(qnt_movimento > 1){
+	//				//	colidiu_diamante = false
+	//				//}else{
+	//					colidiu_diamante = true;
+	//					sprite_index = spr_Player;
+	//				//}
+	//			}	
+	//			if(place_meeting(x, y, obj_parede)){
+	//				//colidiu_diamante = true;
+	//				diamante_aux = qnt_movimento
+	//				sprite_index = spr_hit;	
+	//			}
+	//		//}
+	//	}
+	//}
 
 	if comando_movimento = "down"{
 		while(!colidiu_diamante) {

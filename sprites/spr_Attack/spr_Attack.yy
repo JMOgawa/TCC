@@ -48,7 +48,7 @@
     ],
     "top": 0,
   },
-  "origin": 7,
+  "origin": 4,
   "parent": {
     "name": "Personagens",
     "path": "folders/Sprites/Personagens.yy",
@@ -87,7 +87,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 34,
-    "yorigin": 58,
+    "yorigin": 29,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

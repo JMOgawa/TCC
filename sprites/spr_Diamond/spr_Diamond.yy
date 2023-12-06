@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_Diamond",
-  "bbox_bottom": 19,
+  "bbox_bottom": 26,
   "bbox_left": 6,
   "bbox_right": 32,
   "bbox_top": 0,

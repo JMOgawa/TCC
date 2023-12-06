@@ -4,4 +4,4 @@
 instance_deactivate_object(obj_player)
 
 
-get_globais()
+//get_globais()

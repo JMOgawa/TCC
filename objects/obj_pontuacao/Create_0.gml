@@ -6,5 +6,5 @@
 
 //pontos = obj_jogo.global.lista_pontos
 
-get_globais()
-
+//get_globais()
+get_pontos()

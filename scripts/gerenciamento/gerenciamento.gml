@@ -4,7 +4,7 @@ function gerenciar_diamantes(diamantes_coletados){
 	//show_message(diamantes_coletados)
 	diamante_missao = 0;
 	if (room = 1){
-		diamante_missao = 4
+		diamante_missao = 1
 		i = 0
 	}else if (room = 2){
 		diamante_missao = 8
@@ -90,13 +90,13 @@ function get_pontos(){
 	}
 }
 
-function get_globais(){
-	global.lista_pontos = array_create(7)
-	global.fase1_liberada = false
-	global.fase2_liberada = false
-	global.fase3_liberada = false
-	global.fase4_liberada = false
-	global.fase5_liberada = false
-	global.fase6_liberada = false
-	global.fase7_liberada = false
-}
+//function get_globais(){
+//	global.lista_pontos = array_create(7)
+//	global.fase1_liberada = false
+//	global.fase2_liberada = false
+//	global.fase3_liberada = false
+//	global.fase4_liberada = false
+//	global.fase5_liberada = false
+//	global.fase6_liberada = false
+//	global.fase7_liberada = false
+//}

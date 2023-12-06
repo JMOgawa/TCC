@@ -1,6 +1,4 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-//hsp = 1
-//vsp = 1
-
+vida_total = 5
