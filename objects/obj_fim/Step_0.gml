@@ -13,4 +13,5 @@ if (posicao_atual <= string_length(texto)) {
 }
 
 
+tamanho_tela()
 

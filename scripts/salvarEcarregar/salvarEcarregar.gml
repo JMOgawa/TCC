@@ -54,24 +54,17 @@ function save_room(){
 		array_push( _array, _struct);
 	}
 	
-	//with( obj_jogo)
-	//{	
-	//	var _struct = 
-	//	{
-	//		object: object_get_name( object_index),
-	//		x: x,
-	//		y: y,
-	//		image_index: image_index,
-	//		lista_pontos: global.lista_pontos,
-	//		fase2_liberada: global.fase2_liberada, 
-	//		fase3_liberada: global.fase3_liberada, 
-	//		fase4_liberada: global.fase4_liberada,
-	//		fase5_liberada: global.fase5_liberada,
-	//		fase6_liberada: global.fase6_liberada,
-	//		fase7_liberada: global.fase7_liberada
-	//	};
-	//	array_push( _array, _struct);
-	//}
+	with( obj_jogo)
+	{	
+		var _struct = 
+		{
+			object: object_get_name( object_index),
+			x: x,
+			y: y,
+			image_index: image_index
+		};
+		array_push( _array, _struct);
+	}
 	
 	
 	with( obj_missao_fase)
@@ -199,6 +192,19 @@ function save_room(){
 			sprite_index: sprite_index
 		};		
 		array_push( _array, _struct);
+	}	
+	
+	with(textbox_NomeUsuario)
+	{
+		var _struct = 
+		{
+			object: object_get_name( object_index),
+			x: x,
+			y: y,
+			image_index: image_index,
+			nome_do_usuario: textbox_NomeUsuario.nome_do_usuario
+		};		
+		array_push( _array, _struct);
 	}
 	
 	struct_set( global.game_data.room_data, room_get_name( room), _array);
@@ -235,7 +241,7 @@ function load_room()
 	{			
 		
 		instance_destroy( obj_player);
-		//instance_destroy( obj_jogo);
+		instance_destroy( obj_jogo);
 		instance_destroy( obj_diamond);
 		instance_destroy( obj_chaveAzul);
 		instance_destroy( obj_pontuacao);

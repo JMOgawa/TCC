@@ -106,3 +106,9 @@ function get_globais(){
 		
 	}
 }
+
+function tamanho_tela(){
+	//if(room_get_name(room) != "Mapa" or room_get_name(room) != "Pontuacao" or room_get_name(room) != "Concluido" or room_get_name(room) != "Sobreojogo" or room_get_name(room) != "Home"){
+	//	window_center()
+	//}
+}

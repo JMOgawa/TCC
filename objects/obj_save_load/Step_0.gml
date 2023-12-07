@@ -5,3 +5,5 @@
 if (room_get_name(room) = "Home"){
 	get_globais()
 }
+
+tamanho_tela()

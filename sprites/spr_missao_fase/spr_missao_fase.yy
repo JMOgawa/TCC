@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_missao_fase",
-  "bbox_bottom": 499,
+  "bbox_bottom": 349,
   "bbox_left": 0,
-  "bbox_right": 699,
+  "bbox_right": 489,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 500,
+  "height": 350,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f0c2bc59-c839-4e0b-bc8f-a95d6edee66d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 700,
+  "width": 490,
 }

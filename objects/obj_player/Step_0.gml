@@ -6,6 +6,10 @@
 //		comando_player(comando_movimento, velocidade, qnt_movimento, diamantes_coletados);
 //		//mudarFase(diamonds_coletados, diamante_missao);
 //}
+if(room_get_name(room) = "Fase4"){
+	y = 453
+	x = 106
+}
 
 if comando_movimento = "left"{
 	while(diamante_aux != qnt_movimento) {

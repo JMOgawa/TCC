@@ -8,3 +8,4 @@
 
 //get_globais()
 get_pontos()
+tamanho_tela()
