@@ -48,7 +48,8 @@ function save_room(){
 			object: object_get_name( object_index),
 			x: x,
 			y: y,
-			image_index: image_index
+			image_index: image_index, 
+			count_chave: obj_chaveAzul.count_chave
 		};	
 		array_push( _array, _struct);
 	}
@@ -73,17 +74,28 @@ function save_room(){
 	//}
 	
 	
-	//with( obj_pontuacao)
-	//{
-	//	var _struct = 
-	//	{
-	//		object: object_get_name( object_index),
-	//		x: x,
-	//		y: y,
-	//		lista_pontos: global.lista_pontos
-	//	};		
-	//	array_push( _array, _struct);
-	//}
+	with( obj_missao_fase)
+	{
+		var _struct = 
+		{
+			object: object_get_name( object_index),
+			x: x,
+			y: y,
+			mostar_mensagem: obj_missao_fase.mostar_mensagem
+		};		
+		array_push( _array, _struct);
+	}	
+	
+	with( obj_pontuacao)
+	{
+		var _struct = 
+		{
+			object: object_get_name( object_index),
+			x: x,
+			y: y
+		};		
+		array_push( _array, _struct);
+	}
 	
 	with( obj_player)
 	{
@@ -98,96 +110,96 @@ function save_room(){
 			comando_movimento: obj_player.comando_movimento,
 			qnt_movimento: obj_player.qnt_movimento,
 			velocidade: obj_player.velocidade,
-			colidiu_diamante: obj_player.colidiu_diamante
+			diamante_aux: obj_player.diamante_aux
 		};		
 		array_push( _array, _struct);
 	}	
 	
-	//with(obj_fase1)
-	//{
-	//	var _struct = 
-	//	{
-	//		object: object_get_name( object_index),
-	//		x: x,
-	//		y: y,
-	//		image_index: image_index,
-	//		sprite_index: sprite_index
-	//	};		
-	//	array_push( _array, _struct);
-	//}
+	with(obj_fase1)
+	{
+		var _struct = 
+		{
+			object: object_get_name( object_index),
+			x: x,
+			y: y,
+			image_index: image_index,
+			sprite_index: sprite_index
+		};		
+		array_push( _array, _struct);
+	}
 	
-	//with(obj_fase2)
-	//{
-	//	var _struct = 
-	//	{
-	//		object: object_get_name( object_index),
-	//		x: x,
-	//		y: y,
-	//		sprite_index: sprite_index
-	//	};		
-	//	array_push( _array, _struct);
-	//}
+	with(obj_fase2)
+	{
+		var _struct = 
+		{
+			object: object_get_name( object_index),
+			x: x,
+			y: y,
+			sprite_index: sprite_index
+		};		
+		array_push( _array, _struct);
+	}
 	
-	//with(obj_fase3)
-	//{
-	//	var _struct = 
-	//	{
-	//		object: object_get_name( object_index),
-	//		x: x,
-	//		y: y,
-	//		sprite_index: sprite_index
-	//	};		
-	//	array_push( _array, _struct);
-	//}
+	with(obj_fase3)
+	{
+		var _struct = 
+		{
+			object: object_get_name( object_index),
+			x: x,
+			y: y,
+			sprite_index: sprite_index
+		};		
+		array_push( _array, _struct);
+	}
 	
-	//with(obj_fase4)
-	//{
-	//	var _struct = 
-	//	{
-	//		object: object_get_name( object_index),
-	//		x: x,
-	//		y: y,
-	//		sprite_index: sprite_index
-	//	};		
-	//	array_push( _array, _struct);
-	//}
+	with(obj_fase4)
+	{
+		var _struct = 
+		{
+			object: object_get_name( object_index),
+			x: x,
+			y: y,
+			sprite_index: sprite_index
+		};		
+		array_push( _array, _struct);
+	}
 	
-	//with(obj_fase5)
-	//{
-	//	var _struct = 
-	//	{
-	//		object: object_get_name( object_index),
-	//		x: x,
-	//		y: y,
-	//		sprite_index: sprite_index
-	//	};		
-	//	array_push( _array, _struct);
-	//}	
+	with(obj_fase5)
+	{
+		var _struct = 
+		{
+			object: object_get_name( object_index),
+			x: x,
+			y: y,
+			sprite_index: sprite_index
+		};		
+		array_push( _array, _struct);
+	}	
 	
-	//with(obj_fase6)
-	//{
-	//	var _struct = 
-	//	{
-	//		object: object_get_name( object_index),
-	//		x: x,
-	//		y: y,
-	//		sprite_index: sprite_index
-	//	};		
-	//	array_push( _array, _struct);
-	//}
+	with(obj_fase6)
+	{
+		var _struct = 
+		{
+			object: object_get_name( object_index),
+			x: x,
+			y: y,
+			sprite_index: sprite_index
+		};		
+		array_push( _array, _struct);
+	}
 	
-	//with(obj_fase7)
-	//{
-	//	var _struct = 
-	//	{
-	//		object: object_get_name( object_index),
-	//		x: x,
-	//		y: y,
-	//		image_index: image_index,
-	//		sprite_index: sprite_index
-	//	};		
-	//	array_push( _array, _struct);
-	//}
+	with(obj_fase7)
+	{
+		var _struct = 
+		{
+			object: object_get_name( object_index),
+			x: x,
+			y: y,
+			image_index: image_index,
+			sprite_index: sprite_index
+		};		
+		array_push( _array, _struct);
+	}
 	
 	struct_set( global.game_data.room_data, room_get_name( room), _array);
 	
@@ -227,13 +239,13 @@ function load_room()
 		instance_destroy( obj_diamond);
 		instance_destroy( obj_chaveAzul);
 		instance_destroy( obj_pontuacao);
-		//instance_destroy( obj_fase1);
-		//instance_destroy( obj_fase2);
-		//instance_destroy( obj_fase3);
-		//instance_destroy( obj_fase4);
-		//instance_destroy( obj_fase5);
-		//instance_destroy( obj_fase6);
-		//instance_destroy( obj_fase7);
+		instance_destroy( obj_fase1);
+		instance_destroy( obj_fase2);
+		instance_destroy( obj_fase3);
+		instance_destroy( obj_fase4);
+		instance_destroy( obj_fase5);
+		instance_destroy( obj_fase6);
+		instance_destroy( obj_fase7);
 		
 		for( var i = 0; i < array_length( _array); i += 1) 
 		{

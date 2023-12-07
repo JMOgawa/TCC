@@ -13,3 +13,4 @@ velocidade = 1
 colidiu_diamante = false
 colisao_diamante = instance_place(x, y, obj_diamond);
 colisao_inimigo = instance_place(x, y, Obj_pig);
+colisao_chave = instance_place(x, y, obj_chaveAzul);

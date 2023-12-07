@@ -89,3 +89,17 @@ if comando_movimento = "attack"{
 	comando_movimento = ""
 }
 
+//chave = getRecurso()
+if comando_movimento = "get_recurso"{
+	while(obj_chaveAzul.count_chave != 1) {
+		x+=velocidade
+		colisao_chave = instance_place(x, y, obj_chaveAzul);
+        if (instance_exists(colisao_chave)) {
+			obj_chaveAzul.count_chave = 1	  
+        }
+	}
+	instance_destroy(colisao_chave);
+	comando_movimento = ""
+}
+
+

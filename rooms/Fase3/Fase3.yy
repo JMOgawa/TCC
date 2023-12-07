@@ -31,7 +31,7 @@
     {"name":"inst_2DEB74C9","path":"rooms/Fase3/Fase3.yy",},
     {"name":"inst_32AB4848","path":"rooms/Fase3/Fase3.yy",},
     {"name":"inst_2C3A93F2","path":"rooms/Fase3/Fase3.yy",},
-    {"name":"inst_40053FBD","path":"rooms/Fase3/Fase3.yy",},
+    {"name":"inst_3812F327","path":"rooms/Fase3/Fase3.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -47,7 +47,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_573F34D5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_diamond","path":"objects/obj_diamond/obj_diamond.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":732.0,"y":532.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_29357337","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_pig","path":"objects/Obj_pig/Obj_pig.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":789.0,"y":522.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2C3A93F2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_jogo","path":"objects/obj_jogo/obj_jogo.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":934.0,"y":580.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_40053FBD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_missao_fase","path":"objects/obj_missao_fase/obj_missao_fase.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.5533333,"x":330.0,"y":127.69204,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3812F327","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_missao_fase","path":"objects/obj_missao_fase/obj_missao_fase.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":330.0,"y":110.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Codigo_secao","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_560738C3_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_codigo","path":"objects/obj_codigo/obj_codigo.yy",},"properties":[],"rotation":0.0,"scaleX":1.1366681,"scaleY":1.0006087,"x":964.6786,"y":620.8137,},

@@ -3,5 +3,5 @@
 //mostar_mensagem = false
 
 //if(!mostar_mensagem){
-	instance_destroy(obj_missao_fase)
+	instance_destroy()
 //}

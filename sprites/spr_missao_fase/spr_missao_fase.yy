@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_missao_fase",
-  "bbox_bottom": 299,
+  "bbox_bottom": 499,
   "bbox_left": 0,
   "bbox_right": 699,
   "bbox_top": 0,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 300,
+  "height": 500,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f0c2bc59-c839-4e0b-bc8f-a95d6edee66d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},

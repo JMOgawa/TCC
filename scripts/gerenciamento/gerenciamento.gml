@@ -90,13 +90,19 @@ function get_pontos(){
 	}
 }
 
-//function get_globais(){
-//	global.lista_pontos = array_create(7)
-//	global.fase1_liberada = false
-//	global.fase2_liberada = false
-//	global.fase3_liberada = false
-//	global.fase4_liberada = false
-//	global.fase5_liberada = false
-//	global.fase6_liberada = false
-//	global.fase7_liberada = false
-//}
+function get_globais(){
+	global.count_ = 0
+	if count_ = 0{
+		global.lista_pontos = array_create(7)
+		global.fase1_liberada = false
+		global.fase2_liberada = false
+		global.fase3_liberada = false
+		global.fase4_liberada = false
+		global.fase5_liberada = false
+		global.fase6_liberada = false
+		global.fase7_liberada = false
+		global.count_ = 1
+	}else{
+		
+	}
+}

@@ -3,7 +3,7 @@
 
 
 if !instance_exists(obj_player){
-	instance_create_layer(96, 520, "Player", obj_player)
+	instance_create_layer(96, 520, layer, obj_player)
 }
 
-//load_room()
+load_room()

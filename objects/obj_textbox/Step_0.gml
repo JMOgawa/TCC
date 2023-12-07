@@ -33,6 +33,7 @@ if keyboard_check(vk_enter) {
 	codigo = string_delete(codigo, 1, 5)
 	pos_parentesis_aberto = string_pos("(", codigo);
 	pos_parentesis_fechado = string_pos(")", codigo)
+	pos_get_recurso = string_pos("getRecurso", codigo);
 	
 	if(room_get_name(room) = "Fase1"){
 		if string_length(codigo) = 6 {
@@ -67,8 +68,15 @@ if keyboard_check(vk_enter) {
 			codigo = string_delete(codigo, 7, 3)
 			//show_message("n - " + string(numero))
 		}
+		
+		//show_message("n - " + string(pos_get_recurso))
+		if (pos_get_recurso > 0) {
+			obj_player.qnt_movimento = 1
+			codigo = "get_recurso"
+		}
 		//show_message("n - " + string(numero))
 	}
+	
 	//show_message(numero)
 	obj_player.comando_movimento = string_lower(codigo)
 	if (numero = "(" or numero = ")" or numero = 0) {
@@ -77,7 +85,7 @@ if keyboard_check(vk_enter) {
 	}else{
 		obj_player.qnt_movimento = real(numero)
 		//obj_player.qnt_movimento = int64(numero)
-	}
+	}	
     keyboard_string = "";
 	codigo = "";
 }

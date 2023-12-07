@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Live and Coins",
-    "path": "folders/Sprites/Live and Coins.yy",
+    "name": "Itens",
+    "path": "folders/Sprites/Itens.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

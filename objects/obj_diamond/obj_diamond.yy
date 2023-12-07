@@ -2,9 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_diamond",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -28,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Diamond",
-    "path": "sprites/spr_Diamond/spr_Diamond.yy",
+    "name": "spr_DiamondGIF",
+    "path": "sprites/spr_DiamondGIF/spr_DiamondGIF.yy",
   },
   "spriteMaskId": null,
   "visible": true,

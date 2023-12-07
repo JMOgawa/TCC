@@ -8,5 +8,6 @@ movimento = ""
 numero = 1
 pos_parentesis_aberto = 0
 pos_parentesis_fechado = 0
+pos_get_recurso = 0
 delay = 20;
 alarm[0] = delay;

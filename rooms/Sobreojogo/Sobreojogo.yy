@@ -9,12 +9,14 @@
   "instanceCreationOrder": [
     {"name":"inst_339BC54B","path":"rooms/Sobreojogo/Sobreojogo.yy",},
     {"name":"inst_1E0763CB","path":"rooms/Sobreojogo/Sobreojogo.yy",},
+    {"name":"inst_17C4CB10","path":"rooms/Sobreojogo/Sobreojogo.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instance","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1E0763CB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"pag_SobreJogo","path":"objects/pag_SobreJogo/pag_SobreJogo.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":30.13385,"y":85.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_339BC54B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"btnVoltar","path":"objects/btnVoltar/btnVoltar.yy",},"properties":[],"rotation":0.0,"scaleX":0.65217394,"scaleY":0.65217394,"x":30.0,"y":15.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_17C4CB10","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_codigo","path":"objects/obj_codigo/obj_codigo.yy",},"properties":[],"rotation":0.0,"scaleX":3.3557572,"scaleY":0.11111111,"x":206.88977,"y":65.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_339BC54B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"btnVoltar","path":"objects/btnVoltar/btnVoltar.yy",},"properties":[],"rotation":0.0,"scaleX":0.65217394,"scaleY":0.65217394,"x":30.0,"y":6.444275,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_1","animationFPS":30.0,"animationSpeedType":0,"colour":4293228356,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

@@ -6,7 +6,7 @@ var _mensagem2 = ""
 
 switch (room_get_name(room)) {
 	case "Fase1":
-		_mensagem = "Colete os diamantes.\nNeste nível, você aprenderá a movimentação básica do seu player.";
+		_mensagem = "Colete os diamantes.\nNeste nível, você aprenderá a movimentação \nbásica do seu player.";
 		break;
 	case "Fase2":
 		_mensagem = "Escape do porco para pegar os diamantes e\nchegar do outro lado com segurança.\nPara andar uma longa distancia utilize os parametros.";

@@ -18,23 +18,9 @@ if (room_get_name(room) == "Fase1") {
 } else if (room_get_name(room) == "Fase4") {
 	draw_set_valign(fa_top);
 	draw_set_halign(fa_left);
-	draw_text(x, y, "king.right()\nking.left()\nking.up()\nking.down()");
+	draw_text(x, y, "Dica:\n   king.right(steps)\n   king.left(steps)\n   king.up(steps)\n   king.down(steps)\n   nome_variavel = getRecurso()");
+	draw_text(x+200, y, "steps: 1, 2, 3, 4, \n5, 6, 7, 8, 9");
 }
 
 
-//if (room_get_name(room) = "Pontuacao"){
-//	instance_destroy(obj_player)
-//	var linha = 50;
-//	draw_set_font(Font_Verdana)	
-//	draw_set_valign(fa_middle)
-//	draw_set_halign(fa_center)
-//	draw_text(x, y, "Fase");
-//	draw_text(x + 500, y, "Score");
-//	//show_message(global.lista_pontos[0])
-//	for (var i = 0; i < array_length(global.lista_pontos); i++) { 
-//		linha += 50;
-//	    draw_text(x, y + linha, string(i + 1));
-//		draw_text(x + 250, y + linha, "------------------");
-//		draw_text(x + 500, y + linha, global.lista_pontos[i]);
-//	}
-//}
+

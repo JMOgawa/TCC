@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_chaveAzul",
-  "bbox_bottom": 74,
-  "bbox_left": 39,
-  "bbox_right": 60,
-  "bbox_top": 28,
+  "bbox_bottom": 46,
+  "bbox_left": 0,
+  "bbox_right": 21,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -28,7 +28,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 100,
+  "height": 47,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e1812a58-7c49-401b-8b45-75968c042a3f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -36,8 +36,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Itens",
+    "path": "folders/Sprites/Itens.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -92,5 +92,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 100,
+  "width": 22,
 }
